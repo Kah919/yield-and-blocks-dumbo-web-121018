@@ -1,5 +1,4 @@
 def hello_t(array)
-  puts "hello"
   yield
   return array
 end
