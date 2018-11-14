@@ -1,10 +1,8 @@
 def hello_t(array)
-  # i = 0
-  #
-  # while i < array.length
-  #   i = i + 1
-  # end
+  puts "hello"
+  yield
   return array
 end
 
 # call your method here!
+hello_t { |ele| puts ele }
