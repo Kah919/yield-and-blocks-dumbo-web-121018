@@ -1,6 +1,6 @@
 def hello_t(array)
-  yield
-  return array
+  yield()
+  return array[]
 end
 
 # call your method here!
