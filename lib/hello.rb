@@ -5,4 +5,4 @@ def hello_t(array)
 end
 
 # call your method here!
-hello_t("hi") { |ele| puts ele }
+hello_t(array) { |ele| puts ele }
